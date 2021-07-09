@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* sfondo */
+body {
+  background-image: url(immagini/sfondo.jpg);
+  background-size: cover;
+  color: white;
+ }
+
+/* intestazione */
+header {
+  color: lime;
+  text-align: center;
+  font-size: auto;
+  margin: 20px;
+}
+
+.logo {
+  width: 200px;
+}
+
+/* layout */
+#contenitore{
+  width: 70%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 60px;
+}
+
+#comandi{
+  text-align: center;
+  background-color: lime;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.monopattino {
+  margin-top: 20px;
+}
+
+.nome_monopattino {
+  display: inline;
+  font-size: auto;
+}
+
+/* barre stato carica monopattini */
+#carica_Gino22 {
+  background-color: #c9b322;
+  width: 30%;
+  height: 20px;
+  border-radius: 4px;
+}
+
+#carica_Mike24 {
+  background-color: #47d111;
+  width: 60%;
+  height: 20px;
+  border-radius: 4px;
+}
+
+#carica_Fede154 {
+  background-color: #bd1111;
+  width: 20%;
+  height: 20px;
+  border-radius: 4px;
+}
